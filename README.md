@@ -1,6 +1,18 @@
-# Containerised CI/CD LINFlexD_UART_MPC5744P Sample Project.
 
-Single repo example to apply CI/CD to LINFlexD_UART_MPC5744P example from ```com.nxp.s32ds.e200.examples_1.0.0.201911111358/Examples``` for the [DEVKIT-MPC5744P](https://www.nxp.com/design/development-boards/automotive-development-platforms/mpc57xx-mcu-platforms/mpc5744p-development-board-for-functional-safety-motor-control:DEVKIT-MPC5744P)
+
+1. Bunch of code to [re]learn powerpc assembly.
+2. LLVM e200z4 backend.
+3. ????
+4. Profit.
+
+# Resources.
+
+- [PPCEABI: PowerPC Embedded Application Binary Interface (EABI) - PPCEABI.pdf](https://www.nxp.com/docs/en/application-note/PPCEABI.pdf)
+- [Variable-Length Encoding (VLE)Programming Environments Manual](https://www.nxp.com/docs/en/reference-manual/VLEPEM.pdf)
+- [EREF: A Programmer’s Reference Manualfor Freescale Power Architecture Processors](https://www.nxp.com/files-static/32bit/doc/ref_manual/EREF_RM.pdf)
+- [](https://www.nxp.com/files-static/training_pdf/FTF/2014/americas/WBNR_FTF2014_NET_F0143.pdf)
+
+# Containerised CI/CD Skeleton Sample Project.
 
 [GitHub Actions Build Status:](https://github.com/AutomotiveDevOps/LINFlexD_UART_MPC5744P_Docker/actions): ![Source Build](https://github.com/AutomotiveDevOps/LINFlexD_UART_MPC5744P_Docker/workflows/Source%20Build/badge.svg)
 
@@ -12,24 +24,9 @@ This repository is a single repo example combining:
 
 # Usage:
 
-## GitHub Actions CI/CD Workflow:
-
-1. Fork the repository.
-1. Edit some things.
-1. Push to GitHub.
-1. Check GitHub Actions tab for build results/failures.
-
 ## Example Description
 
-
-- The Example uses LINFlexD_1 to communicate over serial. (19200 baud rate, 8N1)
-- Connects USB to PC.
-- Sends a string to the computer terminal.
-
-Message should read:
-
-    This is the DEVKIT-MPC5744P UART test.  If you see this in your PC terminal, test was successful.
-
+- Lets do some basic math.
 
 # Why DevOps?
 
